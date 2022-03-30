@@ -1,25 +1,18 @@
 #include<bits/stdc++.h>
 using namespace std;
+void sort(int arr[], int i, int j)
+{
+	int val = arr[i];
+	int l = i;
+	int r = j;
+	
+}
+
+
 void sort(int arr[], int size)
 {
-    //mac端的更改
-    int tmp = 0;
-	bool flag = false;
-    for(int i = 0; i < size- 1; ++i)
-    {
-        for(int j = 0; j < size - 1 - i; ++j)
-        {
-	    //mac端修改排序算法，从大到小排序
-            if(arr[j] < arr[j + 1])
-            {
-					tmp = arr[j];
-					arr[j] = arr[j + 1];
-					arr[j + 1] = tmp;
-					flag = true;
-            }
-        }
-		if(!flag) break;
-    }
+   
+   sort(arr,0,size);
 }
 int main()
 {
