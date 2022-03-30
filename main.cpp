@@ -19,6 +19,7 @@ void sort(int arr[], int size)
 }
 int main()
 {
+	//windows端的更改
 	int arr[] = {12,4,5,78,8};
 	int size = sizeof(arr) / sizeof(arr[0]);
 	sort(arr, size);
