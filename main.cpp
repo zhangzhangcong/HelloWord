@@ -2,6 +2,7 @@
 using namespace std;
 void sort(int arr[], int size)
 {
+    //mac端的更改
     int tmp = 0;
     for(int i = 0; i < size- 1; ++i)
     {
